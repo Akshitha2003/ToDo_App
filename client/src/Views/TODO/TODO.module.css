@@ -1,0 +1,107 @@
+.ancestorContainer {
+    display: flex;
+    background-color: whitesmoke;
+    padding: 8px;
+    border-radius: 8px;
+    height: 80vh;
+    margin: 6px;
+    flex-direction: column;
+}
+
+.headerContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: fit-content;
+    padding: 12px 4px;
+}
+
+.addButton {
+    height: fit-content;
+    width: fit-content;
+    padding: 12px 8px;
+    background-color: floralwhite;
+    cursor: pointer;
+    border-radius: 8px;
+    font-size: large;
+    font-weight: 700;
+    transition: all 0.3s linear;
+    box-shadow: 1px 1px 4px 2px rgb(0, 0, 0, 0.1);
+
+    &:hover {
+        box-shadow: 1px 1px 4px 2px rgb(0, 0, 0, 0.4);
+    }
+}
+
+.todoContainer {
+    display: flex;
+    flex-direction: column;
+    height: 80%;
+    background-color: rgb(106, 118, 119);
+    margin: 4px;
+    border-radius: 8px;
+    padding: 8px;
+    gap: 12px;
+    overflow-y: auto;
+}
+
+.todo {
+    background-color: white;
+
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    box-shadow: 1px 1px 4px 2px rgb(0, 0, 0, 0.1);
+    justify-content: space-between;
+    max-height: 3em;
+    border-radius: 10px;
+
+    input {
+        margin-right: 8px;
+        height: 20px;
+        width: 20px;
+    }
+}
+
+.infoContainer {
+    width: 90%;
+    font-size: large;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.editingInput {
+    width: 500px;
+    padding: 2px 2px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+    height: 45px;
+}
+
+.todoInput {
+    width: 50%;
+    margin-right: 8px;
+    height: 35px;
+    font-size: large;
+    border-radius: 10px;
+}
+
+.noTodoMessage {
+    color: white;
+    align-self: center;
+    justify-self: center;
+    font-size: large;
+}
+
+.buttonStyle {
+    cursor: 'pointer';
+    border: 2px black solid;
+    padding: 3px;
+    border-radius: 12px;
+    background-color: rgba(128, 128, 128, 0.112);
+    width: 45px;
+    text-align: center;
+    cursor: pointer;
+}

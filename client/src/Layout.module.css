@@ -1,0 +1,37 @@
+.header {
+    display: flex;
+    background-color: rgb(123, 0, 139);
+    color: white;
+    padding: 16px;
+    justify-content: space-between;
+
+    span {
+        display: flex;
+        align-items: center;
+        font-size: x-large;
+        font-style: italic;
+        font-weight: bolder;
+    }
+}
+
+.headerLinks {
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+    margin-right: 2em;
+    font-weight: bold;
+    font-size: medium;
+}
+
+.headerLinks a:link,
+.headerLinks a:visited,
+.headerLinks a:hover,
+.headerLinks a:active {
+    color: white;
+    text-decoration: none;
+}
+
+.primaryContainer{
+    padding: 4px;
+    background-color: rgb(2, 85, 113);
+}
